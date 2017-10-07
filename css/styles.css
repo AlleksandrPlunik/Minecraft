@@ -1,0 +1,326 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0;
+	background: white;
+	width: 1280px;
+	margin: auto;
+	color: #333333;
+	font: normal 18px/28px Helvetice, Arial, sans-serif;
+	text-align: left;
+}
+
+.clear {
+	clear: both;
+}
+
+p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #000;
+}
+
+h1 {
+	padding:10px 0 20px 0;
+	font-size: 24pt;
+}
+
+h2 {
+	padding: 0 0 12px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+form, menu, iframe {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+ol, ul, dl, li, dt, dd {
+	margin: 0;
+	list-style: none;
+}
+
+* {
+	outline: none;
+}
+
+p {
+	padding: 0;
+	font-size: 13pt;
+}
+
+h2 {
+	font-size: 16pt;
+}
+
+.resize {
+	width: 980px;
+	margin: auto;
+}
+
+.heder_grean {
+	height: 47px;
+	padding: 10px;
+	margin: auto;
+	background: #37a14c;
+}
+
+.bloc {
+	width: 980px;
+	margin: auto;
+	color: white;
+	text-align: center;
+}
+
+.white {
+	padding: 0;
+	margin: auto;
+	color: white;
+	float: left;
+}
+
+.social li {
+	display: inline-block;
+	float: right;
+	padding: 5px;
+}
+
+.social a {
+	display: block;
+	width: 28px;
+	height: 28px;
+	text-indent: -9000px;
+	background: url(../images/sprite.png) no-repeat left top;
+}
+
+.social a.tw {
+	background-position: 0 0;
+}
+
+.social a.fb {
+	background-position: -30px 0;
+}
+
+.social a.gp {
+	background-position: -60px 0;
+}
+
+.logo {
+	float: right;
+	padding: 40px 0;
+
+}
+
+.header_logo {
+	float: left;
+	margin: auto;
+	width: 150px;
+	padding: 20px 5px;
+}
+
+.contacts {
+	float: left;
+	width: 250px;
+	padding: 10px 20px 2px 10px;
+}
+
+.tel a {
+	color: #0f680e;
+}
+
+.tel_2 a {
+	color: #0f680e;
+}
+
+.tel {
+	text-align: right;
+}
+
+.skype a:before {
+	content: "";
+	display: inline-block;
+	margin-right: 6px;
+	width: 17px;
+	height: 18px;
+	background: url(../images/icon_skype.png) no-repeat center center;
+}
+
+.skype {
+	color: black;
+}
+
+.button {
+	padding: 20px 0;
+	margin: 0;
+	float: left;
+	width: 140px;
+	height: 90px;
+}
+
+button {
+	display: inline-block;
+	margin: 10px 0;
+	width: 140px;
+	height: 40px;
+	color: white;
+	text-align: center;
+	background: #fec70d;
+	border-radius: 5px;
+	box-shadow: none;
+}
+
+button:hover {
+	background: burlywood;
+}
+.navigation li:hover{
+	background: #40ce5c;
+}
+
+.navigation {
+	width: 980px;
+	margin: auto;
+}
+
+nav {
+	background: #37a14c;
+	margin: auto;
+	height: 48px;
+
+}
+
+.navigation li {
+	display: table-cell;
+	width: 196px;
+	height: 42px;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	padding: 7px 0 0 0;
+	border-left: 1px solid #247634;
+	border-right: 1px solid #57e974;
+}
+
+.navigation a {
+	color: white;
+}
+
+aside {
+	float: left;
+	padding: 5px;
+	color: black;
+}
+
+.left a {
+	color: black;
+}
+
+.red a {
+	color: red;
+}
+
+main {
+	color: black;
+	width: 740px;
+	float: right;
+	padding: 25px 0;
+}
+
+figure {
+	display: inline-block;
+	float: left;
+	width: 232px;
+	height: 265px;
+	padding: 1px;
+	margin: 10px;
+	background: #309544;
+	overflow: hidden;
+	font-size: 14px;
+}
+
+figcaption {
+	line-height: 20px;
+	width: 230px;
+	height: 90px;
+	color: white;
+	overflow: hidden;
+	padding: 3px;
+}
+
+figcaption strong {
+	color: black;
+	font-size: medium;
+	display: inline-block;
+}
+
+.nwes {
+	float: right;
+	padding: 5px 5px 37px 5px;
+}
+
+.yellow_block {
+	background: #f2b407;
+	height: 100px;
+}
+
+.gren_block {
+	background: #0f680e;
+	height: 90px;
+}
+
+.partner {
+	padding: 10px;
+}
+
+.partner a {
+	display: block;
+	float: left;
+	width: 25%;
+	margin: auto;
+}
+
+.contacts_footer {
+	float: right;
+	text-align: right;
+	color: black;
+}
+
+.contacts_footer a {
+	color: black;
+}
+
+.yellow_block h2 {
+	padding: 20px;
+	float: left;
+	color: white;
+	font-size: 20px;
+}
+.avtor {
+	width: 980px;
+	margin: auto;
+}
