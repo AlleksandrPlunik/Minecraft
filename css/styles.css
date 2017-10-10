@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	padding:10px 0 20px 0;
+	padding: 10px 0 20px 0;
 	font-size: 24pt;
 }
 
@@ -176,35 +176,40 @@ h2 {
 }
 
 .button {
-	padding: 20px 0;
+	padding: 13px 0;
 	margin: 0;
 	float: left;
-	width: 140px;
-	height: 90px;
+	width: 150px;
+	text-align: center;
 }
 
-button {
-	display: inline-block;
+.button a {
+	display: block;
+	padding-top: 7px;
 	margin: 10px 0;
-	width: 140px;
+	width: 150px;
 	height: 40px;
 	color: white;
 	text-align: center;
+	font-size: 16px;
 	background: #fec70d;
 	border-radius: 5px;
-	box-shadow: none;
+	box-shadow: rgba(0, 0, 0, 0.19) 0 0 2px, rgba(0, 0, 0, 0.23) 0 0 2px;;
 }
 
-button:hover {
+.button a:hover {
 	background: burlywood;
 }
-.navigation li:hover{
+
+.navigation li:hover {
 	background: #40ce5c;
 }
 
 .navigation {
 	width: 980px;
 	margin: auto;
+	border-left: 1px solid #57e974;
+	border-right: 1px solid #247634;
 }
 
 nav {
@@ -221,7 +226,7 @@ nav {
 	font-size: 16px;
 	text-align: center;
 	color: white;
-	padding: 7px 0 0 0;
+	padding: 6px 0 0 0;
 	border-left: 1px solid #247634;
 	border-right: 1px solid #57e974;
 }
@@ -232,44 +237,73 @@ nav {
 
 aside {
 	float: left;
-	padding: 5px;
+	padding-top: 25px;
 	color: black;
+	width: 220px;
+}
+
+.left > ul > li {
+	border-bottom: 1px solid #e7e7e7;
+	line-height: 48px;
+	padding: 0;
+}
+
+.left > ul {
+	padding: 0;
 }
 
 .left a {
 	color: black;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .red a {
 	color: red;
+	font-size: 16px;
+}
+
+.red {
+	line-height: normal;
+	padding-left: 20px;
 }
 
 main {
 	color: black;
 	width: 740px;
 	float: right;
-	padding: 25px 0;
+	padding: 0 0 40px 0;
+	border-bottom: 1px solid silver
+}
+
+main p {
+	font-size: 14px;
+	text-align: left;
+	line-height: normal;
 }
 
 figure {
 	display: inline-block;
 	float: left;
-	width: 232px;
+	width: 220px;
 	height: 265px;
-	padding: 1px;
-	margin: 10px;
-	background: #309544;
+	margin: 0;
+	margin-right: 40px;
+	background: linear-gradient(to top, #45bb5c, #329545);
 	overflow: hidden;
 	font-size: 14px;
 }
 
+figure:last-child {
+	margin-right: 0;
+}
+
 figcaption {
-	line-height: 20px;
-	width: 230px;
+	line-height: 16px;
 	height: 90px;
 	color: white;
 	overflow: hidden;
-	padding: 3px;
+	padding: 2px;
 }
 
 figcaption strong {
@@ -280,7 +314,8 @@ figcaption strong {
 
 .nwes {
 	float: right;
-	padding: 5px 5px 37px 5px;
+	width: 740px;
+	padding-bottom: 37px;
 }
 
 .yellow_block {
@@ -289,19 +324,23 @@ figcaption strong {
 }
 
 .gren_block {
-	background: #0f680e;
+	background: #42b258;
 	height: 90px;
 }
 
 .partner {
-	padding: 10px;
+	padding-top: 10px;
 }
 
 .partner a {
 	display: block;
 	float: left;
-	width: 25%;
 	margin: auto;
+	margin-right: 47px;
+}
+
+.partner a:last-child {
+	margin-right: 0;
 }
 
 .contacts_footer {
@@ -320,6 +359,7 @@ figcaption strong {
 	color: white;
 	font-size: 20px;
 }
+
 .avtor {
 	width: 980px;
 	margin: auto;
