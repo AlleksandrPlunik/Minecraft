@@ -6,7 +6,6 @@ html {
 body {
 	padding: 0;
 	background: white;
-	width: 1280px;
 	margin: auto;
 	color: #333333;
 	font: normal 18px/28px Helvetice, Arial, sans-serif;
@@ -148,10 +147,19 @@ h2 {
 	float: left;
 	width: 250px;
 	padding: 10px 20px 2px 10px;
+	color: #0f680e
 }
 
 .tel a {
 	color: #0f680e;
+	float: right;
+	width: 190px;
+}
+.contacts p:after {
+	content: "";
+	display: block;
+	clear: both;
+
 }
 
 .tel_2 a {
@@ -345,12 +353,19 @@ figcaption strong {
 
 .contacts_footer {
 	float: right;
-	text-align: right;
 	color: black;
+	width: 250px;
+}
+.contacts_footer p:after {
+	content: "";
+	display: block;
+	clear: both;
+
 }
 
 .contacts_footer a {
 	color: black;
+	float: right;
 }
 
 .yellow_block h2 {
